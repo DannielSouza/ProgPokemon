@@ -1,0 +1,17 @@
+{pokemons.map((pokemon)=>{
+        
+        async function getDetails(url){
+        const response = await fetch(url)
+        const responseJSON = await response.json()
+        /* window[pokemon.name] = await responseJSON */
+        setInfos(infos?[...infos, {...responseJSON}] : [{...responseJSON}])
+        if(responseJSON) ready = true
+        }
+        getDetails(pokemon.url)
+        
+        return (
+        <li style={{marginTop: '5rem'}} key={pokemon.name}>
+          {console.log(window[pokemon.name])}
+          <span>{pokemon.name}</span>
+        </li>)
+      })}

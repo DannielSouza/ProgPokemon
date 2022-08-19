@@ -1,0 +1,38 @@
+.container{
+  margin: 0 auto;
+  background: white;
+  width: 11rem;
+  height: 15rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .4);
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+.container:hover{
+  transform: scale(1.05);
+}
+
+.type{
+  margin: 0 .5rem;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: .8rem;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, .7);
+}
+
+@media (max-width:500px){
+
+}

@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;400;600;700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+*{
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'IBM Plex Mono', monospace;
   color: white;
+} 
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #17202A;
 }
 
-.App-link {
-  color: #61dafb;
+/* POKEMON LIST */
+
+.normal{
+  background: url('../src/assets/normal.jpg')!important;
+  border: 3px solid #CA6F1E !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fighting{
+  background: url('../src/assets/normal.jpg')!important;
+  border: 3px solid #784212 !important;
 }
+
+.flying{
+  background: url('../src/assets/fly.jpg')!important;
+  border: 3px solid #4D5656 !important;
+}
+
+.poison{
+  background: url('../src/assets/poision.jpg')!important;
+  border: 3px solid #5B2C6F !important;
+}
+
+.ground{
+  background: url('../src/assets/ground.jpg')!important;
+  border: 3px solid #A04000 !important;
+}
+
+.rock{
+  background: url('../src/assets/rock.jpg')!important;
+  border: 3px solid #ABB2B9 !important;
+}
+
+.bug{
+  background: url('../src/assets/bug.jpg')!important;
+  border: 3px solid #196F3D !important;
+}
+
+.ghost{
+  background: url('../src/assets/bug.jpg')!important;
+  border: 3px solid #154360 !important;
+}
+
+.steel{
+  background: url('../src/assets/steel.jpg')!important;
+  border: 3px solid #1B4F72 !important;
+}
+
+.fire{
+  background: url('../src/assets/fire.jpg')!important;
+  border: 3px solid #E74C3C !important;
+}
+
+.water{
+  background: url('../src/assets/water.jpg')!important;
+  border: 3px solid #2E86C1 !important;
+}
+
+.grass{
+  background: url('../src/assets/grass.jpg')!important;
+  border: 3px solid #28B463 !important;
+}
+
+.electric{
+  background: url('../src/assets/eletric.jpg')!important;
+  border: 3px solid #D4AC0D !important;
+}
+
+.psychic{
+  background: url('../src/assets/eletric.jpg')!important;
+  border: 3px solid #76448A !important;
+}
+
+.ice{
+  background: url('../src/assets/ice.jpg')!important;
+  border: 3px solid #5DADE2 !important;
+}
+
+.dragon{
+  background: url('../src/assets/dragon.jpg')!important;
+  border: 3px solid #F5CBA7 !important;
+}
+
+.dark{
+  background: url('../src/assets/dark.jpg')!important;
+  border: 3px solid #1C2833 !important;
+}
+
+.fairy{
+  background: url('../src/assets/fairy.jpg')!important;
+  border: 3px solid #F5B7B1 !important;
+}
+
+.unknown{
+  background: url('../src/assets/normal.jpg')!important;
+  border: 3px solid #F9E79F !important;
+}
+
+.shadow{
+  background: url('../src/assets/dark.jpg')!important;
+  border: 3px solid #566573 !important;
+}
+
+/* STATS BAR */
+
+.hp{
+  background: #28B463 !important;
+}
+
+.attack{
+  background: #E74C3C !important;
+}
+
+.defense{
+  background: #2E86C1 !important;
+}
+
+.special-attack{
+  background: #5B2C6F !important;
+}
+
+.special-defense{
+  background: #AF7AC5 !important;
+}
+
+.speed{
+  background: #D4AC0D !important;
+}
+
+ /* POKEMONS VISUAL */
+
+ .visual1{
+  width: 55%;
+ }
+
+ .visual2{
+  width: 40%;
+ }
+
+ .visual3{
+  width: 55%;
+ }

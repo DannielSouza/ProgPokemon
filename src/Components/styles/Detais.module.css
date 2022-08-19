@@ -1,0 +1,155 @@
+.container{
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.pictureContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 17rem;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 5rem;
+}
+
+img{
+  width: 35%;
+}
+
+.infosContainer{
+  border: 2px solid white;
+  border-bottom-right-radius: 5rem;
+  padding: 1rem;
+  font-size: .8rem;
+  height: 17rem;
+  max-width: 38rem;
+}
+
+.statsContainer{
+  margin: 0%;
+}
+
+.containerBar{
+  width: 300px;
+  height: 10px;
+  margin-bottom: 1.6rem;
+  text-transform: capitalize;
+}
+
+.bar{
+  height: 10px;
+  animation: barLoading 2s forwards;
+  border-radius: 5rem;
+  position: relative;
+}
+
+.bar2{
+  position: absolute;
+  width: 300px !important;
+  height: 10px;
+  border-radius: 5rem;
+  background-color: lightgray !important;
+}
+
+@keyframes barLoading{
+  from{
+    width: 0%;
+  }
+  to{
+    width: width;
+  }
+}
+
+.infos{
+  display: flex;
+  align-items: center;
+  gap: 0rem;
+}
+
+#name{
+  text-transform: capitalize;
+  white-space: nowrap;
+  margin-bottom: 4rem;
+}
+
+.mainInfos p{
+  margin: 0;
+  width: 14rem;
+}
+
+/* HEADER */
+
+.header{
+  height: 80px;
+  background: #CB4335;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.backButton{
+  display: flex;
+  font-size: 1.5rem;
+  padding: 1rem;
+  transition: .3s;
+
+}
+
+.backButton span{
+  transform: rotate(90deg);
+  font-weight: 100;
+  font-size: 2rem;
+  margin-top: -4px;
+  transition: .3s;
+}
+
+.backButton p{
+  margin: 0;
+  padding: 0;
+  margin-left: .5rem;
+}
+
+.backButton:hover span{
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+@media (max-width:800px){
+  .container{
+    position: relative;
+    flex-direction: column;
+  }
+  .infosContainer{
+    border: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .pictureContainer{
+    margin: 0 auto;
+    border-top-right-radius: 5rem;
+  }
+  .infos{
+    width: 15rem;
+    flex-direction: column;
+    
+  }
+  .statsContainer{
+    margin: 0 auto;
+    margin-top: 2rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #name{
+    margin-bottom: 0%;
+  }
+  .header{
+    height: 60px;
+  }
+}
