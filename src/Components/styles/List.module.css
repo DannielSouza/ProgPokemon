@@ -15,8 +15,10 @@
 @media (max-width:500px){
   .container{
     grid-template-columns: 1fr;
-    justify-content: center;
     align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-54%);
   }
   .item{
     margin: 0 auto;
