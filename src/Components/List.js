@@ -11,10 +11,6 @@ const List = ({visual, setVisual}) => {
   const sentinela = React.useRef()
 
   React.useEffect(()=>{
-    setPokemons(null)
-  },[])
-
-  React.useEffect(()=>{
     seachPokemons(page, pokemons, setPokemons, setCarregando)
   },[page])
 
