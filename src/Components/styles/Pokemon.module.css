@@ -16,21 +16,27 @@
   background-size: cover;
   text-transform: capitalize;
   transition: .3s;
+  position: relative;
 }
 
 .container:hover{
   transform: scale(1.05);
 }
 
+.id{
+  position: absolute;
+  top: 5px;
+}
+
 .type{
   margin: 0 .5rem;
-  border: 1px solid black;
   padding: 5px;
   border-radius: 5px;
   color: white;
   font-size: .8rem;
   text-transform: uppercase;
-  background: rgba(255, 255, 255, .7);
+
+  background-size: initial !important;
 }
 
 @media (max-width:500px){

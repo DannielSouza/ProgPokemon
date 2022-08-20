@@ -11,7 +11,7 @@ const Pokemon = ({id, name, visual}) => {
   let visualType
 
   React.useEffect(()=>{
-    getDetails(id, setPokemon, setCarregando)
+    getDetails(name, setPokemon, setCarregando)
   },[])
 
   
@@ -21,17 +21,15 @@ const Pokemon = ({id, name, visual}) => {
     else if(visual === '3') visualType = pokemon['sprites']['other']['home']['front_default']
   }
   
-  
-
  
   if(!pokemon) return <Loader />
   if(pokemon)return (
     
     
     <Link to={`/detalhes/${name}`} className={style.container +' '+ pokemon.types[0].type.name}>
-    <span>#{id}</span>
-
     
+    {id? <span className={style.id}>#{id}</span> : null}
+
     <img className={'visual'+visual} src={visualType} alt={'foto do ' + name}></img>
 
     <h2>{name}</h2>

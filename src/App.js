@@ -21,6 +21,7 @@ function App() {
     if(visual) window.localStorage.setItem('visual', visual)
   },[visual])
 
+
   return (
     <BrowserRouter>
       <Routes>

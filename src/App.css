@@ -19,101 +19,123 @@ body{
 .normal{
   background: url('../src/assets/normal.jpg')!important;
   border: 3px solid #CA6F1E !important;
+  background-size: cover !important;
 }
 
 .fighting{
   background: url('../src/assets/normal.jpg')!important;
   border: 3px solid #784212 !important;
+  background-size: cover !important;
 }
 
 .flying{
   background: url('../src/assets/fly.jpg')!important;
   border: 3px solid #4D5656 !important;
+  background-size: cover !important;
 }
 
 .poison{
   background: url('../src/assets/poision.jpg')!important;
   border: 3px solid #5B2C6F !important;
+  background-size: cover !important;
 }
 
 .ground{
   background: url('../src/assets/ground.jpg')!important;
   border: 3px solid #A04000 !important;
+  background-size: cover !important;
 }
 
 .rock{
   background: url('../src/assets/rock.jpg')!important;
   border: 3px solid #ABB2B9 !important;
+  background-size: cover !important;
 }
 
 .bug{
   background: url('../src/assets/bug.jpg')!important;
   border: 3px solid #196F3D !important;
+  background-size: cover !important;
 }
 
 .ghost{
   background: url('../src/assets/bug.jpg')!important;
   border: 3px solid #154360 !important;
+  background-size: cover !important;
 }
 
 .steel{
   background: url('../src/assets/steel.jpg')!important;
   border: 3px solid #1B4F72 !important;
+  background-size: cover !important;
 }
 
 .fire{
   background: url('../src/assets/fire.jpg')!important;
   border: 3px solid #E74C3C !important;
+  background-size: cover !important;
 }
 
 .water{
   background: url('../src/assets/water.jpg')!important;
   border: 3px solid #2E86C1 !important;
+  background-size: cover !important;
 }
 
 .grass{
   background: url('../src/assets/grass.jpg')!important;
   border: 3px solid #28B463 !important;
+  background-size: cover !important;
 }
 
 .electric{
   background: url('../src/assets/eletric.jpg')!important;
   border: 3px solid #D4AC0D !important;
+  background-size: cover !important;
 }
 
 .psychic{
   background: url('../src/assets/eletric.jpg')!important;
   border: 3px solid #76448A !important;
+  background-size: cover !important;
 }
 
 .ice{
   background: url('../src/assets/ice.jpg')!important;
   border: 3px solid #5DADE2 !important;
+  background-size: cover !important;
 }
 
 .dragon{
   background: url('../src/assets/dragon.jpg')!important;
   border: 3px solid #F5CBA7 !important;
+  background-size: cover !important;
 }
 
 .dark{
   background: url('../src/assets/dark.jpg')!important;
   border: 3px solid #1C2833 !important;
+  background-size: cover !important;
 }
 
 .fairy{
   background: url('../src/assets/fairy.jpg')!important;
   border: 3px solid #F5B7B1 !important;
+  background-size: cover !important;
+  background-position: left !important;
+  background-size: cover !important;
 }
 
 .unknown{
   background: url('../src/assets/normal.jpg')!important;
   border: 3px solid #F9E79F !important;
+  background-size: cover !important;
 }
 
 .shadow{
   background: url('../src/assets/dark.jpg')!important;
   border: 3px solid #566573 !important;
+  background-size: cover !important;
 }
 
 /* STATS BAR */

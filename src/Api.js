@@ -17,8 +17,7 @@ export async function seachPokemons(page, pokemons, setPokemons, setCarregando){
 export async function getDetails(id, setPokemon, setCarregando){
   try {
     setCarregando(true)
-    let url = `https://pokeapi.co/api/v2/pokemon/${id}`
-    const response = await fetch(url)
+    const response = await fetch(`${url}pokemon/${id}`)
     const responseJSON = await response.json()
     setPokemon(responseJSON)
   } catch (error) {
